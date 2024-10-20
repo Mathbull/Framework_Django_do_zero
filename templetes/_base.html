@@ -1,0 +1,34 @@
+{% load static %}  {# Carrega os arquivos static #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block head_title %} 
+        {% endblock %}
+    </title>
+    <link rel="short cut icon" type="img/x-icon" href="{% static 'images/favicon.ico' %}">
+
+    {% block css %} {# bloco para incluir css #}
+    {% endblock %}
+</head>
+<body>
+
+    {% block header %}  {# será nosso cabeçalho, como um menu de navegação #}   
+    {% endblock %}
+   
+    {% block main %}
+        {% block content %}
+
+        {% endblock %}
+    {% endblock %}
+
+    {% block footer %}
+    {% endblock %}
+
+    {% block javaScript %}
+    {% endblock %}
+
+</body>
+</html>

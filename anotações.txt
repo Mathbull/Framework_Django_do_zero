@@ -4,3 +4,23 @@
 4. adicionar as rotas
 5. Inicializar o servidor de desenvolvimento para testar
 6. Criar um templete HTML
+
+
+========= Introdução ao templates ====================
+
+- É usado o _ para caso em que o template não será o renderizado, mas será um complemento
+- Estrutura de templates para reutilização _base.html
+- templete de layout genérico _leyout1.html (Servirá de base para todo o desing do sitemea)
+- Usa o Jinja (gerenciador de templete, junta partes estáticas com partes dinâmicas de acordo com o banco de dados ou depender da sua lógica):
+    {{ }} => imprime valores de variáveis
+    {% %} => execultar comandos:
+        {% if var %}
+            <a></a>
+        {% else %}
+        {% endif %}
+    {# #} => comentários
+- Aplicar o layout genérico em um templete final
+- Arquivos estáticos ( imagens, CSS, JS e qualquer outro arquivo que não muda)
+- implementação do collectstatic para gerenciamento de arquivo em para um futuro cenario de produção.
+- Usar aquivo estático: favicon
+

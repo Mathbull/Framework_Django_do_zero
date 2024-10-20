@@ -6,7 +6,9 @@ from django.http import HttpResponse
 # define um view baseado em função
 def index(request):
     # return HttpResponse('Hello word - index')
-    return render(request, 'index.html')
+    # return render(request, 'index.html')
+    
+    return render(request, 'index.html', {'titulo': 'Últimas enquetes',})
 
 
 # Define uma view baseado em função.
