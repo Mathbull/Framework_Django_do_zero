@@ -1,0 +1,6 @@
+1. Criando o projeto App Django
+2. Habilitar o app /módulo polls
+3. Criar uma view para app polls
+4. adicionar as rotas
+5. Inicializar o servidor de desenvolvimento para testar
+6. Criar um templete HTML
