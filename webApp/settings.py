@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATIC_ROOT = os.path.join(BASE_DIR, "public")
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+
+# Indicar para onde o usuario vai quando entrar no site
+LOGIN_REDIRECT_URL = "/ola"
+LOGOUT_REDIRECT_URL = "/ola"

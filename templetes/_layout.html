@@ -14,17 +14,33 @@
     
 {% block header %}
     <div class="contaiver">
-           <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-buttom">
-                <a ref="{% url 'index' %}" {# o url irá pegar o name da rota que deixamos na polls.url.py #}
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark">
-                    <span class="fs-4">Django do Zero</span>
-                </a>
-                <ul class="nav nav-pills">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-buttom">
+            <a ref="{% url 'index' %}" {# o url irá pegar o name da rota que deixamos na polls.url.py #}
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark">
+                <span class="fs-4">Django do Zero</span>
+            </a>
+            <ul class="nav nav-pills">
+                {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a href="{% url 'ola' %}" class="nav-link px-2 link-dark">Sobre</a>
+                        <form method="POST" action="{% url 'logout' %}">
+                        {% csrf_token %}
+                        <button type="submit" class="nav-link px-2 link-dark"
+                        style="border: none; background: none;">Sair</button>
+        
                     </li>
-                </ul>
-           </header>
+                {% else %}
+                    <li class="nav-item"> 
+                        <a href="{% url 'singup' %}" class="nav-link px-2 link-dark">Cadastrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{% url 'login' %}" class="nav-link px-2 link-dark">Acessar</a>
+                    </li>
+                {% endif %}
+                <li class="nav-item">
+                    <a href="{% url 'ola' %}" class="nav-link px-2 link-dark">Sobre</a>
+                </li>
+            </ul>
+        </header>
     </div>
 {% endblock %}
 

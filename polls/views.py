@@ -1,7 +1,9 @@
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 from django.http import HttpResponse
+
 
 from polls.models import Question
 
@@ -14,6 +16,7 @@ def index(request):
 
 
 # Define uma view baseado em função.
+@login_required
 def ola(request):
     # return HttpResponse('index - Hello word')
     question = Question.objects.all()
