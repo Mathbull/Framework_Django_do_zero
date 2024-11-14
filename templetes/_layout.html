@@ -46,6 +46,10 @@
 
 {% block main %}
     <div class="container">
+
+        <!-- INclindo layout  com estilo do bootstrapa para mensagens padrão -->
+        {% include '_messages.html' %}
+
         {% block content %}
             <p>Conteúdo padão...</p>
         {% endblock content %}

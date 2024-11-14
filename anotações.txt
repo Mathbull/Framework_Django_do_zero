@@ -71,7 +71,12 @@
 
 
 ============= 8 - Flash messages
+mesagns que aparecem para cada dependendo da ação do usuário
 
+- Configurar as clases CSS para as mensagens
+- Incluir o suporte padrão de mensagfens da view do bootstrap
+- Incluir a exibixão das mensagens em nosso templetess
+- Testes
 
 
 ============ 9 - Personalização de registro do usuario com novo campos

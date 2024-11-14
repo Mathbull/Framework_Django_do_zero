@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 
 # Create your views here.
 from django.http import HttpResponse
@@ -11,7 +12,8 @@ from polls.models import Question
 def index(request):
     # return HttpResponse('Hello word - index')
     # return render(request, 'index.html')
-    
+    aviso = 'aviso importante: esstá pagina não exige login....'
+    messages.warning(request, aviso)
     return render(request, 'index.html', {'titulo': 'Últimas enquetes',})
 
 
