@@ -8,3 +8,6 @@ Mensagens que aparecem como feedback para qualquer ação do usuario. Esses elem
 - Incluir o suporte padrão de mensagfens da view do bootstrap
 - Incluir a exibixão das mensagens em nosso templetess
 - Testes
+<div align="center">
+	<img src="messages-flash.gif"  >
+</div>
