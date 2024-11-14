@@ -2,7 +2,7 @@
 
 Nessa aula abrdamos sobre modelos de dados, ORM e migrações, demonstrando como criar e manipular modelos, além de exibir dados em templates
 
-<h2>Atividades realixadas</h2>
+<h2>Atividades realizadas</h2>
 
 - Introdução ao ORM e models
 - Migração de dados 
