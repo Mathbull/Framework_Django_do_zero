@@ -12,5 +12,5 @@ A maioria das aplicações requer controle de acesso para proteger informações
 - Controle de acesso pela sessão logada
 
 <div align="center">
-	<img src="" width="600" >
+	<img src="login-senha-django-zero.gif"  >
 </div>
