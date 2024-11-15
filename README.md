@@ -1,6 +1,6 @@
 <h1 align="center">[📋 Área Administrativa 🗂️] </h1>
 
-O Django fornce uma poderesa area administrativa que permite gerenciar usuarios, grupos e a propria aplicação.
+O Django fornce uma poderosa área administrativa que permite gerenciar usuários, grupos e a própria aplicação.
 
 ## Atividades realizadas
 
