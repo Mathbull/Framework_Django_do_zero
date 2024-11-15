@@ -12,3 +12,7 @@ OBS.: Corrigido o botão do flash messages, o X estava do lado esquerdo, sendo c
 
 ### Extra
 - Incluindo dados do usuário dentro da página pós login
+
+<div align="center">
+	<img src="incluindo-campos-register.gif"  >
+</div>
