@@ -1,10 +1,14 @@
-<h1 align="center">[Flash menssages⚡💬] </h1>
+<h1 align="center">[🆕 Novos campos na tela de registro de usuários 📝👥] </h1>
 
-Mensagens que aparecem como feedback para qualquer ação do usuario. Esses elementos são fundamentais para manter os usuários informados e satisfeitos ao interagir com uma aplicação web.
+Por default o Django já fornece o models.User com campos predeterminados, mas e se quisermos criar campos novos, podemos adaptar. No caso vamos fazer de uma forma bem direta.
+
 
 ## Atividades realizadas
 
-- Configurar as clases CSS para as mensagens
-- Incluir o suporte padrão de mensagfens da view do bootstrap
-- Incluir a exibixão das mensagens em nosso templetess
-- Testes
+- Reverter as mifgrações dos modelos de dados, para criar um Model personalizado(Campos a nosso gosto)
+- Criar um Model User personalizado
+- Adaptar o from de registro para coletar os novos campos
+OBS.: Corrigido o botão do flash messages, o X estava do lado esquerdo, sendo correto do lado direito
+
+### Extra
+- Incluindo dados do usuário dentro da página pós login

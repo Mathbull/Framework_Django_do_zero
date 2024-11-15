@@ -78,6 +78,20 @@ Mensagens que aparecem como feedback para qualquer ação do usuario. Esses elem
 - Incluir a exibixão das mensagens em nosso templetess
 - Testes
 
+============= 9 - Novos campos na tela de resgistro de usuários
 
-============ 9 - Personalização de registro do usuario com novo campos
+Por default o Django já fornece o models.User com campos predeterminados, mas e se quisermos criar campos novos, podemos adaptar. No caso vamos fazer de uma forma bem direta.
 
+
+- Reverter as mifgrações dos modelos de dados, para criar um Model personalizado(Campos a nosso gosto)
+- Criar um Model User personalizado
+- Adaptar o from de registro para coletar os novos campos
+
+OBS.: corrigindo o botão do flash messages, o X estava do lado esquerdo, sendo correto do lado direito
+
+Extra
+- Incluindo dados do usuário dentro da página pós login
+
+============= 10 - Upload de imagem para o perfil do usuário
+
+============= CRUD - Create, Read, Update e Delete

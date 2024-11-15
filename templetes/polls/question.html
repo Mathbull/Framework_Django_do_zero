@@ -6,6 +6,9 @@
 
 {% block content %}
 
+    <!-- Inluindo o nome do usuário -->
+    <h1 align="center">Bem vindo {{user.username}} </h1>
+
     <h1>Enquetes</h1>
 
     {% for question in all_question %}

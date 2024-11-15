@@ -13,7 +13,7 @@ def index(request):
     # return HttpResponse('Hello word - index')
     # return render(request, 'index.html')
     aviso = 'aviso importante: esstá pagina não exige login....'
-    # messages.warning(request, aviso)
+    messages.warning(request, aviso)
     return render(request, 'index.html', {'titulo': 'Últimas enquetes',})
 
 
