@@ -9,3 +9,7 @@ O Django fornce uma poderosa área administrativa que permite gerenciar usuário
 - Explorar a área administrativa
 - Incluir o Model Question na área administrativa
 - Model CustomUser na área administrativa
+  
+<div align="center">
+	<img src="area-admin.gif"  >
+</div>
