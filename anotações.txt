@@ -92,6 +92,17 @@ OBS.: corrigindo o botão do flash messages, o X estava do lado esquerdo, sendo 
 Extra
 - Incluindo dados do usuário dentro da página pós login
 
-============= 10 - Upload de imagem para o perfil do usuário
+============= 10 - Área administrativa
+
+O Django fornce uma poderesa area administrativa que permite gerenciar usuarios, grupos e a propria aplicação.
+
+- Criar um usuário administrativo
+- Acessar a área administrativa
+- Explorar a área administrativa
+- Incluir o Model Question na área administrativa
+- Model CustomUser na área administrativa
 
 ============= CRUD - Create, Read, Update e Delete
+
+============= 11 - Upload de imagem para o perfil do usuário
+
