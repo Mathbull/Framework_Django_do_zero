@@ -6,5 +6,14 @@
 
 
 {% block content %}
+
+    <a href="{% url 'poll_add' %}" class="btn btn-lg btn-primary font-weight-bold mb-5 ">
+        + Pergunta class
+    </a>
+    <a href="{% url 'poll_create' %}" class="btn btn-lg btn-primary font-weight-bold mb-5 ">
+        + Pergunta def
+    </a>
+
     <h1>{{ titulo }}</h1>
 {% endblock %}
+
