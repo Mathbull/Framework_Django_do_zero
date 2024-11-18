@@ -9,3 +9,7 @@ Para as enquetes iremos elaborar CRUD, e views baseadas em classes e funções
 - Criar o template para ixibir o formulário
 - Definir as rotas para views
 - Controle de acesso ás rotas
+
+<div align="center">
+	<img src="crud-basico-create.gif"  >
+</div>
